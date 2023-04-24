@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  font-family: "Kanit", sans-serif;
+  font-size: larger;
+}
+header {
+  display: flex;
+  position: fixed;
+  background-color: rgb(236, 231, 231);
+  height: 200px;
+  width: 100%;
+  margin: 0;
+  color: rgb(0, 0, 0);
+  justify-content: space-around;
+  align-items: center;
+  padding: 0;
+  box-shadow: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  font-weight: 900;
+}
+
+.logo {
+  height: 150px;
+  width: 150px;
+  margin: 25px;
+}
+
+.profil {
+  height: 150px;
+  width: 150px;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  width: 75%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 250px 400px 50px 400px;
+  gap: 20px;
+}
+
+.product {
+  background-color: lightgray;
+  border-radius: 30px;
+  border: 2px solid black;
+  height: 300px;
+  width: 100%-20px;
+  margin: 0;
+  display: flex;
+  padding: 15px;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.description {
+  display: inline-block;
+}
+
+img {
+  height: 60%;
+}
+
+.start-button {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  height: 50px;
+  width: 250px;
+  font-size: large;
+  font-family: inherit;
+}
+
+footer {
+  background-color: rgb(87, 87, 140);
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+}
+
+.info {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+}
